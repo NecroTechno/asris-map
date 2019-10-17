@@ -1,0 +1,3 @@
+export const UPDATE_SOIL_DATA = "UPDATE_SOIL_DATA";
+export const CLEAR_SOIL_DATA = "CLEAR_SOIL_DATA";
+export const UPDATE_MARKERS = "UPDATE_MARKERS";

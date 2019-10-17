@@ -1,0 +1,77 @@
+body {
+  font-family: "Merriweather Sans";
+}
+
+a {
+  color: #ef5c73;
+}
+
+a:hover, a:active {
+    color: #bc4759;
+}
+
+button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: white;
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 5px;
+  box-shadow: 2px 2px #ef5c73;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+button:active {
+    box-shadow: none;
+    left: 2px;
+    top: 2px;
+    position: relative;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.row:first-child {
+  margin-top: 20px;
+}
+
+.alert {
+  border-radius: 5px;
+}
+
+.alert-warning {
+  border: 1px solid #8a6d3b;
+}
+
+.alert-danger {
+  border: 1px solid #a94442;
+}
+
+.leaflet-container {
+  height: 500px;
+  width: 100%;
+  cursor: pointer;
+  /* border-radius: 5px; */
+}
+
+.vessel {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    /* box-shadow: 5px 5px #061041; */
+}
+
+.vessel--no-padding {
+  padding: 0px;
+}
+
+.noRender {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .leaflet-container {
+    height: 300px;
+  }
+}
