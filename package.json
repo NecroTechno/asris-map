@@ -11,14 +11,14 @@
     "express": "^4.16.4",
     "jsx-loader": "^0.13.2",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react-dom": "^16.10.2",
     "webpack": "^4.35.0",
     "webpack-cli": "^3.3.5",
     "react-beautiful-dnd": "^11.0.5",
     "babel-loader": "^8.0.5",
     "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
     "style-loader": "^1.0.0",
     "css-loader": "^3.2.0",
     "bootstrap": "^4.3.1",
@@ -32,7 +32,7 @@
     "leaflet": "^1.5.1"
   },
   "engines": {
-    "node": "8.x"
+    "node": "11.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/asris-map"
