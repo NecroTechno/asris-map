@@ -62,18 +62,12 @@ class ASRIS extends Component {
                 Australia. Powered by the{" "}
                 <a
                   target="_blank"
-                  href="http://www.asris.csiro.au/ASRISApi#!/APSIM32Services/ApsoilFromGrid_getClosestApsoil"
+                  href="https://www.asris.csiro.au/ASRISApi#/"
                 >
                   ARSIS Soil Data Web API
                 </a>
                 .
               </p>
-              {window.location.protocol == "https:" ? (
-                <div className="alert alert-warning">
-                  <strong>WARNING!</strong> The ASRIS api does not work over
-                  HTTPS. <a href="http://asris-map.glitch.me/">Click here</a> to access this page over an unsecured connection.
-                </div>
-              ) : null}
               {this.props.appError != null ? (
                 <div className="alert alert-danger">
                   <strong>ERROR!</strong> {this.props.appError.message}
