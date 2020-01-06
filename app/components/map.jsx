@@ -46,7 +46,7 @@ class SoilMap extends Component {
         this.props.clearError();
       }
       this.props.setLoadingTrue();
-      fetch("http://www.asris.csiro.au/ASRISApi/api/APSIM/getClosestApsoil?longitude=" + long + "&latitude=" + lat + "&maxCnt=1")
+      fetch("https://www.asris.csiro.au/ASRISApi/api/APSIM/getClosestApsoil?longitude=" + long + "&latitude=" + lat + "&maxCnt=1")
         .then(response => {
           if (!response.ok) {
             throw new Error("Bad Request")

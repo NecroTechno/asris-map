@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack && node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.16.4",
